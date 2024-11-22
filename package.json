@@ -1,0 +1,20 @@
+{
+  "name": "practic",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "project initial",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "node modules/server.js"
+  },
+  "author": "czntrn",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.13.0"
+  }
+}
